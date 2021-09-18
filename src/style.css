@@ -6,7 +6,6 @@
 
 body {
   margin: 30px auto;
-  max-width: 100%;
   margin-top: 100px;
 }
 
@@ -30,11 +29,8 @@ h3 {
 }
 
 p {
-  padding: 0px;
-  border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
 }
 
 .navigation-links {
@@ -101,4 +97,23 @@ p {
   color: white;
   border-radius: 4px;
   padding: 20px 15px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
